@@ -11,7 +11,7 @@ class NodoUsuario{
         NodoUsuario* sig;
         
     public:
-        NodoUsuario();
+        NodoUsuario(Usuario* nuevo);
         Usuario* getUsuario();
         NodoUsuario* getSig();
         void setSig(NodoUsuario*);

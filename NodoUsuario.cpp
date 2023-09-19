@@ -1,12 +1,13 @@
 //Clase Nodo para usuarios
 #include <iostream>
 #include "Usuario.h"
+#include "NodoUsuario.h"
 using namespace std;
 
-NodoUsuario::NodoUsuario(){
+NodoUsuario::NodoUsuario(Usuario* nuevo){
     this->usuario = NULL;
     this->sig = NULL;
-};
+}
 
 Usuario* NodoUsuario::getUsuario(){
     return this->usuario;

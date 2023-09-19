@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 
-    NodoUsuario* n = new NodoUsuario();
+    
     string name;
     string password;
     int years;

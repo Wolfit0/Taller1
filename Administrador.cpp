@@ -1,3 +1,4 @@
+//Clase Usuario administrador
 #include <iostream>
 #include "Administrador.h"
 

@@ -1,3 +1,4 @@
+//Clase Administrador
 #pragma once
 #include <iostream>
 #include "Usuario.h"
