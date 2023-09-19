@@ -13,22 +13,6 @@ int main(){
     string password;
     int years;
     string correo;
-
-    cout<<"1= administrador"<<endl;
-    cout<<"Ingrese nombre de usuario: "<<endl;
-    cin>>name;
-        
-    cout<<"Ingrese contraseña de usuario: "<<endl;
-    cin>>password;
-
-    cout<<"Ingrese edad de usuario: "<<endl;
-    cin>>years;
-
-    cout<<"Ingrese correo de usuario: "<<endl;
-    cin>>correo;
-
-
-    
     /*cout<<"Ingrese nombre de usuario: "<<endl;
     cin>>name;
     

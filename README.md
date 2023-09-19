@@ -1,2 +1,2 @@
 # Taller1
-Taller 1 de Estructura de datos
+Primer taller de laboratiorio de Estructura de datos
