@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Usuario.cpp"
-#include "Niño.cpp"
-#include "Normal.cpp"
-#include "Administrador.cpp"
+#include "Usuario.h"
+#include "Niño.h"
+#include "Normal.h"
+#include "Administrador.h"
 #include "NodoUsuario.h"
 using namespace std;
 
@@ -24,7 +24,7 @@ int main(){
 
     cout<<"Ingrese correo de usuario: "<<endl;
     cin>>correo;*/
-    Usuario* p= new Administrador(name,password,years,correo);
+    Usuario* p = new Administrador(name,password,years,correo);
     Administrador* p2 = static_cast<Administrador*>(p);
     cout<<"\n----------------------------"<<endl;
     cout<<"Hola tengo un usuario de tipo admin, de nombre"<<endl;

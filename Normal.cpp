@@ -3,7 +3,6 @@
 #include "Normal.h"
 using namespace std;
 
-
 Normal::Normal(string nombre,string contraseña,int edad,string correo):Usuario(nombre,contraseña,edad){
     this->correo = correo;
 };

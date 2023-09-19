@@ -1,8 +1,7 @@
 //Clase Nodo para usuarios
 #include <iostream>
-#include "NodoUsuario.h"
+#include "Usuario.h"
 using namespace std;
-
 
 NodoUsuario::NodoUsuario(){
     this->usuario = NULL;
