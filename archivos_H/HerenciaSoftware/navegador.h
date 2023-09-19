@@ -6,6 +6,8 @@ using namespace std;
 
 class navegador:public software{
     private:
+        string tipoJuego;
+        string lista[10];
 
     public:
         navegador(string,string,int,int);
