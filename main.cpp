@@ -1,5 +1,5 @@
 #include <iostream>
-#include "HerenciaUsuario/Usuario.h"
+#include "C:\Users\roble\Desktop\Taller1\HerenciaUsuario\Usuario.h"
 #include "HerenciaUsuario/Niño.h"
 #include "HerenciaUsuario/Normal.h"
 #include "HerenciaUsuario/Administrador.h"
@@ -10,13 +10,15 @@ using namespace std;
 
 int main(){
     
-    software* s = new software("minecraft","Mojand",12,1700);
-
-    listaUsuario* s;
-    
-    for(int i=0;i<3;i++){
+    int op;
     cout<<"Que tipo de usuario quiere ingresar: \nAdministrador[1]\nNormal[2]\nNiño[3]"<<endl;
+    cin>>op;
+
+    if(op == 1){
+        cout<<"funciona"<<endl;
     }
+    
+    
 
 
     return 0;
