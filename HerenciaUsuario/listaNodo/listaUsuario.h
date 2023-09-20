@@ -9,14 +9,24 @@ class listaUsuario{
         nodoUsuario* primero;
 
     public: 
-        listaUsuario(nodoUsuario*);
+        listaUsuario();
+        nodoUsuario* getPrimero();
+        int getCant();
         virtual bool listaVacia();
         virtual void insertarPrimero(nodoUsuario*);
 };
 
-listaUsuario::listaUsuario(nodoUsuario* primero){
-    this->primero = primero;
-    this->cant = 1;
+listaUsuario::listaUsuario(){
+    this->primero = NULL;
+    this->cant = 0;
+}
+
+nodoUsuario* listaUsuario::getPrimero(){
+    return this->primero;
+}
+
+int listaUsuario::getCant(){
+    return this->cant;
 }
 
 bool listaUsuario::listaVacia(){

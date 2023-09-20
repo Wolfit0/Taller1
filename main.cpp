@@ -10,14 +10,10 @@ using namespace std;
 
 int main(){
     
-    int op;
     cout<<"Que tipo de usuario quiere ingresar: \nAdministrador[1]\nNormal[2]\nNiño[3]"<<endl;
-    cin>>op;
 
-    if(op == 1){
-        cout<<"funciona"<<endl;
-    }
     
+
     
 
 
