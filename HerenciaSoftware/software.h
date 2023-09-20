@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "HerenciaUsuario/Usuario.h"
+
 using namespace std;
 
 class software{

@@ -15,7 +15,7 @@ int main(){
     listaUsuario* s;
     
     for(int i=0;i<3;i++){
-        
+    cout<<"Que tipo de usuario quiere ingresar: \nAdministrador[1]\nNormal[2]\nNiño[3]"<<endl;
     }
 
 
