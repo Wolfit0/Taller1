@@ -14,7 +14,7 @@ class juego:public software{
         
 };
 
-juego::juego(string nombre,string developer,string genero,int clasifi,int precio):software(nombre,developer,clasifi,precio){
+/*juego::juego(string nombre,string developer,string genero,int clasifi,int precio):software(nombre,developer,clasifi,precio){
     this->GeneroJuego = genero;
-};
+};*/
 

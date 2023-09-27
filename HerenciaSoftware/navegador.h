@@ -10,4 +10,4 @@ class navegador:public software{
         navegador(string,string,int,int);
 };
 
-navegador::navegador(string nombre,string developer,int califi,int precio):software(nombre,developer,califi,precio){};
+//navegador::navegador(string nombre,string developer,int califi,int precio):software(nombre,developer,califi,precio){};

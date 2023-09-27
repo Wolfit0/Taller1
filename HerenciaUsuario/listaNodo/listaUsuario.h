@@ -11,9 +11,12 @@ class listaUsuario{
     public: 
         listaUsuario();
         nodoUsuario* getPrimero();
-        int getCant();
-        virtual bool listaVacia();
-        virtual void insertarPrimero(nodoUsuario*);
+        virtual void setPrimero(nodoUsuario*);
+        virtual int getCant();
+        virtual void insertarInicio(nodoUsuario* );
+        virtual nodoUsuario* buscar(string);
+        virtual bool vacio();
+
 };
 
 listaUsuario::listaUsuario(){
@@ -21,23 +24,45 @@ listaUsuario::listaUsuario(){
     this->cant = 0;
 }
 
+bool listaUsuario::vacio(){
+    if(this->primero == NULL){
+        return true;
+    }
+    else{
+        return false;
+    }
+
+    
+}
+
 nodoUsuario* listaUsuario::getPrimero(){
     return this->primero;
+}
+
+void listaUsuario::setPrimero(nodoUsuario* nuevo){
+    this->primero = nuevo;
 }
 
 int listaUsuario::getCant(){
     return this->cant;
 }
 
-bool listaUsuario::listaVacia(){
-    if(this->cant == 0){
-        return true;
+void listaUsuario::insertarInicio(nodoUsuario* nuevo){
+    bool empty = vacio();
+    if(!empty){
+        nuevo->setSiguiente(this->primero);
+        this->primero->setAnterior(nuevo);
+        this->cant++;
     }
-    return false;
 }
 
-void listaUsuario::insertarPrimero(nodoUsuario* nuevo){
-    nuevo->setSiguiente(this->primero);
-    this->primero = nuevo;
-    this->cant++;
+nodoUsuario* listaUsuario::buscar(string name){
+    nodoUsuario* aux = this->primero;
+    while(aux != NULL){
+        if(aux->getUsuario()->getNombre().compare(name)){
+            return aux;
+        }
+    }
+
+    return NULL;
 }

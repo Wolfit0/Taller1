@@ -12,6 +12,6 @@ class seguridad:public software{
         seguridad(string,string,string,int,int);
 };
 
-seguridad::seguridad(string nombre,string developer,string malware,int califi,int precio):software(nombre,developer,califi,precio){
+/*seguridad::seguridad(string nombre,string developer,string malware,int califi,int precio):software(nombre,developer,califi,precio){
     this->malware = malware;
-};
+};*/

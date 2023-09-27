@@ -11,6 +11,6 @@ class producción:public software{
         producción(string,string,string,int,int);
 };
 
-producción::producción(string nombre,string developer,string solucion,int califi,int precio):software(nombre,developer,califi,precio){
+/*producción::producción(string nombre,string developer,string solucion,int califi,int precio):software(nombre,developer,califi,precio){
     this->solucion = solucion;
-};
+};*/

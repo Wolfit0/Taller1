@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include "C:\Users\roble\Desktop\Taller1\HerenciaUsuario\Usuario.h"
 
 using namespace std;
 
@@ -17,9 +16,6 @@ class software{
         string getDeveloper();
         int getClasificacion();
         int getPrecio();
-        virtual bool agregar();
-        virtual bool eliminar();
-        virtual software* buscar();
 };
 
 string software::getNombre(){
