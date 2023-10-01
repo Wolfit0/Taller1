@@ -18,6 +18,13 @@ class software{
         int getPrecio();
 };
 
+software::software(string nombre,string developer,int clasificacionEdad,int precio){
+    this->nombre = nombre;
+    this->developer = developer;
+    this->clasificacionEdad = clasificacionEdad;
+    this->precio = precio;
+}
+
 string software::getNombre(){
     return this->nombre;
 }
