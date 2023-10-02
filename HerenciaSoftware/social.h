@@ -10,6 +10,5 @@ class social:public software{
         social(string,string,int,int);
 };
 
-/*social::social(string nombre,string developer,int califi,int precio):software(nombre,developer,califi,precio){
-
-};*/
+social::social(string nombre,string developer,int califi,int precio):software(nombre,developer,califi,precio){
+};

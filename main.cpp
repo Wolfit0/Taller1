@@ -19,10 +19,10 @@ using namespace std;
 
 
 int main(){
+    
+    listaUsuario* usuarios = new listaUsuario();
+    
     cout<<"Que tipo de usuario quiere ingresar: \nAdministrador[1]\nNormal[2]\nNiño[3]"<<endl;  
-
-
-
      return 0;
 }
 
