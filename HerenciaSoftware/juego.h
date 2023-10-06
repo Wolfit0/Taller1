@@ -11,10 +11,15 @@ class juego:public software{
         string GeneroJuego;
     public:
         juego(string,string,string,int,int);
+        string getGenero();
         
 };
 
 juego::juego(string nombre,string developer,string genero,int clasifi,int precio):software(nombre,developer,clasifi,precio){
     this->GeneroJuego = genero;
+
 };
 
+string juego::getGenero(){
+    return GeneroJuego;
+}

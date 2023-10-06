@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "listaUser/listaUsuario.h"
 
 using namespace std;
 
@@ -7,22 +8,32 @@ class software{
     private:
         string nombre;
         string developer;
-        int clasificacionEdad;
-        Usuario* listaUsuarios[10]; //Cuando repases los nodos, cambiar esta lista de usuarios
+        bool clasificacionEdad;
+        listaUsuario* usuarios;
         int precio;
     public:
         software(string,string,int,int);
         string getNombre();
         string getDeveloper();
-        int getClasificacion();
+        bool getClasificacion();
         int getPrecio();
+        listaUsuario* getUsuarios();
+        void setUsuriarios(listaUsuario*);
+        
 };
 
 software::software(string nombre,string developer,int clasificacionEdad,int precio){
     this->nombre = nombre;
     this->developer = developer;
-    this->clasificacionEdad = clasificacionEdad;
+    if(clasificacionEdad >= 18){
+        this->clasificacionEdad = true;
+    }
+    else{
+        this->clasificacionEdad = false;
+    }
+    
     this->precio = precio;
+    this->usuarios = new listaUsuario();
 }
 
 string software::getNombre(){
@@ -31,9 +42,17 @@ string software::getNombre(){
 string software::getDeveloper(){
     return this->developer;
 }
-int software::getClasificacion(){
+bool software::getClasificacion(){
     return this->clasificacionEdad;
 }
 int software::getPrecio(){
     return this->precio;
+}
+
+listaUsuario* software::getUsuarios(){
+    return this->usuarios;
+}
+
+void software::setUsuriarios(listaUsuario* lista){
+    this->usuarios = lista;
 }

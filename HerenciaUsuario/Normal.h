@@ -7,12 +7,12 @@ class Normal:public Usuario{
     private:
         string correo;
     public:
-        Normal(string,string,string);
+        Normal(string,string,int,string);
         string getCorreo();
         void setCorreo(string);
 };
 
-Normal::Normal(string nombre,string contraseña,string correo):Usuario(nombre,contraseña){
+Normal::Normal(string nombre,string contraseña,int edad,string correo):Usuario(nombre,contraseña,edad){
     this->correo = correo;
 };
 

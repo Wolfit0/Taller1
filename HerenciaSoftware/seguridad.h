@@ -10,8 +10,14 @@ class seguridad:public software{
         string malware;
     public:
         seguridad(string,string,string,int,int);
+        string getMalware();
+
 };
 
 seguridad::seguridad(string nombre,string developer,string malware,int califi,int precio):software(nombre,developer,califi,precio){
     this->malware = malware;
 };
+
+string seguridad::getMalware(){
+    return this->malware;
+}

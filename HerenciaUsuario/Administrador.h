@@ -2,23 +2,27 @@
 #include <iostream>
 #include "Usuario.h"
 using namespace std;
-
+/*
+Subclase Administrador que proviene de la Superclase Usuario
+*/
 class Administrador:public Usuario{
     private:
         string correo;
         bool log;
     public:
-        Administrador(string,string,string);
+        Administrador(string,string,int,string);
         string getCorreo();
         bool getLog();
         void setCorreo(string);
 };
 
-Administrador::Administrador(string nombre,string contraseña,string correo):Usuario(nombre,contraseña){
+Administrador::Administrador(string nombre,string contraseña,int edad,string correo):Usuario(nombre,contraseña,edad){
     this->correo = correo;
     this->log = true;
 };
-
+/*
+Muestra el correo
+*/
 string Administrador::getCorreo(){
     return this->correo;
 }
