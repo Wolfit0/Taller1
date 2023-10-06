@@ -215,7 +215,7 @@ int main(){
 
 
 void poblarUsuarios(listaUsuario* lista){
-    Usuario* admin = new Administrador("Juan","abc123",23,"admin@gmail.com");
+    Usuario* admin1 = new Administrador("Juan","abc123",23,"admin@gmail.com");
     Usuario* nino1 = new Nino("Lukitas","warroo1",12);
     Usuario* nino2 = new Nino("ariel","micontraseña",13);
     Usuario* nino3 = new Nino("Maicul","gtaPass",10);
@@ -231,7 +231,7 @@ void poblarUsuarios(listaUsuario* lista){
     Usuario* usuNormal9 = new Normal("Marie","password9",20,"Marie@gmail.cl");
     Usuario* usuNormal10 = new Normal("Sara","password10",24,"Sara@gmail.cl");
     
-    lista->insertarInicio(admin);
+    lista->insertarInicio(admin1);
     lista->insertarInicio(nino1);
     lista->insertarInicio(nino2);
     lista->insertarInicio(nino3);
@@ -329,16 +329,10 @@ void poblarSoftware(listaSoftware* lista,listaUsuario* listaUsers){
     lista->insertarInicio(seguridad6);
     
     software* social1 = new social("Facebook","Mark",14,1000);
-    //software* social11 = static_cast<software*>(social1);
     lista->insertarInicio(social1);
     software* social2 = new social("Twitter","Elonk",18,1200);
     lista->insertarInicio(social2);
     
-    nodoSoftware* aux = lista->getPrimero();
-    while(aux != NULL){
-        aux->getPrograma()->setUsuriarios(listaUsers);
-        aux = aux->getSiguiente();
-    }
 }
 
 
