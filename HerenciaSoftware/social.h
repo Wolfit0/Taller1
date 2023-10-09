@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "software.h"
-#include "listaNodo/listaUsuario.h"
+#include "listaUser/listaUsuario.h"
 
 using namespace std;
 /*

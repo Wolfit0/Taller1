@@ -107,23 +107,23 @@ int main(){
             if(op <= 6 && op > 0 ){
                 cout<<"Ingrese nombre del programa: "<<endl;
                 string nameSoft;
-                cin<<nameSoft;
+                cin>>nameSoft;
                 cout<<"Ingrese nombre del desarrollador: "<<endl;
                 string nameDeve;
-                cin<<nameDeve;
+                cin>>nameDeve;
                 cout<<"Ingrese clasificacion de edad: "<<endl;
                 int clasif;
-                cin<<clasif;
+                cin>>clasif;
                 cout<<"Ingrese precio del programa: "<<endl;
                 int precie;
-                cin<<precie;
+                cin>>precie;
                 if(op == 1){
                     string listaTipos[10] ={"fps","mmo","puzzle","deporte","aventura"
                                 ,"estrategia","rol","carrera","guerra","arcade"};
                     cout<<"Lista de los generos de juego:\nfps\nmmo\npuzzle\ndeporte\naventura\nestrategia\nrol\ncarrera\nguerra\narcade"<<endl;
                     cout<<"Ingrese nombre del genero: "<<endl;
                     string genere;
-                    cin<<genere;
+                    cin>>genere;
                     bool found = false;
                     for(int i=0;i<10;i++){
                         if(listaTipos[i] == genere){
@@ -151,7 +151,7 @@ int main(){
                     cout<<"Lista de los generos de juego:\nvideo\nmusica\nstreaming\nfotos"<<endl;
                     cout<<"Ingrese solucion del programa: "<<endl;
                     string solu;
-                    cin<<solu;
+                    cin>>solu;
                     bool found = false;
                     for(int i=0;i<4;i++){
                         if(listaSolus[i] == solu){
@@ -173,11 +173,11 @@ int main(){
                     softwares->insertarInicio(nave);
                 }
                 else if(op == 5){
-                    string listaMalware[6]={"ransomware","spyware","botnets","rootkits","gusanos","troyanos"}
+                    string listaMalware[6]={"ransomware","spyware","botnets","rootkits","gusanos","troyanos"};
                     cout<<"Lista de malware para el programa:\nransomware\nspyware\nbotnets\nrootkits\ngusanos\ntroyanos"<<endl;
                     cout<<"Ingrese solucion del programa: "<<endl;
                     string malw;
-                    cin<<malw;
+                    cin>>malw;
                     bool found = false;
                     for(int i=0;i<6;i++){
                         if(listaMalware[i] == malw){
