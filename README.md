@@ -3,10 +3,12 @@ Primer taller de laboratiorio de Estructura de datos
 
 Objetos creados de Usuarios:
     admin1:{software:usuario:"Juan",  contraseña:"abc123",  edad:23,  correo:"admin@gmail.com"}
+
     nino1 :{software:usuario:"Lukitas",  contraseña:"warroo1",  edad:12}
     nino2 :{software:usuario:"ariel",  contraseña:"micontraseña",  edad:13}
     nino3 :{software:usuario:"Maicul",  contraseña:"gtaPass",  edad:10}
     nino4 :{software:usuario:"Mario",  contraseña:"pro123",  edad:16}
+    
     usuNormal1 :{software:usuario:"miguel",  contraseña:"password1",  edad:21,  correo:"miguel@gmail.cl"}
     usuNormal2 :{software:usuario:"waki",  contraseña:"password2",  edad:19,  correo:"waki@gmail.cl"}
     usuNormal3 :{software:usuario:"Loro",  contraseña:"password3",  edad:18,  correo:"Loro@gmail.cl"}
