@@ -1,5 +1,7 @@
 # Taller1
-Primer taller de laboratiorio de Estructura de datos
+Primer taller de laboratiorio de Estructura de datos.
+Sebastian Robles Robles.
+
 
 Objetos creados de Usuarios:
 
