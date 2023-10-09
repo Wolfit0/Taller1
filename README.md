@@ -20,49 +20,49 @@ Objetos creados de Usuarios:
 
 
 Objetos creados de software:
-     juego1 :{software:"juegofps1", "Smile", "fps", 19, 1900}
-     juego2 :{software:"juegofps2", "Milei", "fps", 19, 2100}
-     juego3 :{software:"juegoMMO1", "whiteBlack", "mmo", 19, 2400}
-     juego4 :{software:"juegoMMO2", "Edwar", "mmo", 15, 1500}
-     juego5 :{software:"juegoPuzzle1", "OnePush", "Puzzle", 13, 1300}
-     juego6 :{software:"juegoPuzzle2", "TwoLeft", "Puzzle", 13, 1200}
-     juego7 :{software:"juegoDeporte1", "Orellana", "deporte", 15, 1400}
-     juego8 :{software:"juegoDeporte2", "Loro22", "deporte", 15, 1300}
-     juego9 :{software:"juegoAventura1", "Luck", "aventura", 14, 1600}
-     juego10 :{software:"juegoAventura2", "Mercael", "aventura", 19, 1800}
-     juego11 :{software:"juegoEstrategia1", "Flapi", "estrategia", 19, 1700}
-     juego12 :{software:"juegoEstrategia2", "Parael", "estrategia", 20, 1600}
-     juego13 :{software:"juegoRol1", "rollel", "rol", 14, 1600}
-     juego14 :{software:"juegoRol2", "mikey", "rol", 12, 1100}
-     juego15 :{software:"juegoCarrera1", "momo", "carrera", 14, 1500}
-     juego16 :{software:"juegoCarrera2", "Larri", "carrera", 15, 1650}
-     juego17 :{software:"juegoGuerra1", "fight", "guerra", 19, 1400}
-     juego18 :{software:"juegoGuerra2", "lorie", "guerra", 20, 2000}
-     juego19 :{software:"juegoArcade1", "will", "arcade", 14, 1400}
-     juego20 :{software:"juegoArcade2", "murel", "arcade", 19, 1000}
+     juego1 :{software:"juegofps1", developer: "Smile", genero: "fps", clasificacion: 19, precio: 1900}
+     juego2 :{software:"juegofps2", developer: "Milei", genero: "fps", clasificacion: 19, precio: 2100}
+     juego3 :{software:"juegoMMO1", developer: "whiteBlack", genero: "mmo", clasificacion: 19, precio: 2400}
+     juego4 :{software:"juegoMMO2", developer: "Edwar", genero: "mmo", clasificacion: 15, precio: 1500}
+     juego5 :{software:"juegoPuzzle1", developer: "OnePush", genero: "Puzzle", clasificacion: 13, precio: 1300}
+     juego6 :{software:"juegoPuzzle2", developer: "TwoLeft", genero: "Puzzle", clasificacion: 13, precio: 1200}
+     juego7 :{software:"juegoDeporte1", developer: "Orellana", genero: "deporte", clasificacion: 15, precio: 1400}
+     juego8 :{software:"juegoDeporte2", developer: "Loro22", genero: "deporte", clasificacion: 15, precio: 1300}
+     juego9 :{software:"juegoAventura1", developer: "Luck", genero: "aventura", clasificacion: 14, precio: 1600}
+     juego10 :{software:"juegoAventura2", developer: "Mercael", genero: "aventura", clasificacion: 19, precio: 1800}
+     juego11 :{software:"juegoEstrategia1", developer: "Flapi", genero: "estrategia", clasificacion: 19, precio: 1700}
+     juego12 :{software:"juegoEstrategia2", developer: "Parael", genero: "estrategia", clasificacion: 20, precio: 1600}
+     juego13 :{software:"juegoRol1", developer: "rollel", genero: "rol", clasificacion: 14, precio: 1600}
+     juego14 :{software:"juegoRol2", developer: "mikey", genero: "rol", clasificacion: 12, precio: 1100}
+     juego15 :{software:"juegoCarrera1", developer: "momo", genero: "carrera", clasificacion: 14, precio: 1500}
+     juego16 :{software:"juegoCarrera2", developer: "Larri", genero: "carrera", clasificacion: 15, precio: 1650}
+     juego17 :{software:"juegoGuerra1", developer: "fight", genero: "guerra", clasificacion: 19, precio: 1400}
+     juego18 :{software:"juegoGuerra2", developer: "lorie", genero: "guerra", clasificacion: 20, precio: 2000}
+     juego19 :{software:"juegoArcade1", developer: "will", genero: "arcade", clasificacion: 14, precio: 1400}
+     juego20 :{software:"juegoArcade2", developer: "murel", genero: "arcade", clasificacion: 19, precio: 1000}
 
-     ofimatica1 :{software:"MicrosoftWord", "Smith", 12, 1500}
-     ofimatica2 :{software:"MicrosoftExcel", "Larri", 19, 1500}
-     ofimatica3 :{software:"MicrosoftPoint", "Magoslo", 15, 1500}
-     ofimatica4 :{software:"Drive", "luket", 19, 1500}
-     ofimatica5 :{software:"MicrosoftPoint", "parrain", 19, 1500}
+     ofimatica1 :{software:"MicrosoftWord", developer: "Smith", clasificacion: 12, precio: 1500}
+     ofimatica2 :{software:"MicrosoftExcel", developer: "Larri", clasificacion: 19, precio: 1500}
+     ofimatica3 :{software:"MicrosoftPoint", developer: "Magoslo", clasificacion: 15, precio: 1500}
+     ofimatica4 :{software:"Drive", developer: "luket", 19, 1500}
+     ofimatica5 :{software:"MicrosoftPoint", developer: "parrain", clasificacion: 19, precio: 1500}
     
-     produccion1 :{software:"Bizarrap", "biza", "musica", 18, 1500}
-     produccion2 :{software:"youtube", "Steve", "video", 18, 1550}
-     produccion3 :{software:"twitch", "joel", "streaming", 18, 1200}
-     produccion4 :{software:"photoshop", "lusiu", "foto", 18, 1000}
+     produccion1 :{software:"Bizarrap", developer: "biza", solucion: "musica", clasificacion: 18, precio: 1500}
+     produccion2 :{software:"youtube", developer: "Steve", solucion: "video", clasificacion: 18, precio: 1550}
+     produccion3 :{software:"twitch", developer: "joel", solucion: "streaming", clasificacion: 18, precio: 1200}
+     produccion4 :{software:"photoshop", developer: "lusiu", solucion: "foto", clasificacion: 18, precio: 1000}
 
-     navegador1 :{software:"Google", "larryel", 18, 1200}
-     navegador2 :{software:"Brave", "Brendan", 15, 900}
+     navegador1 :{software:"Google", developer: "larryel",clasificacion: 18, precio: 1200}
+     navegador2 :{software:"Brave", developer: "Brendan", clasificacion: 15, precio: 900}
 
-     seguridad1 :{software:"VirusRanso", "lili", "ransomware", 20, 400}
-     seguridad2 :{software:"VirusSpy", "agente2", "spyware", 20, 1300}
-     seguridad3 :{software:"VirusBot", "emptyNow", "botnets", 16, 1300}
-     seguridad4 :{software:"VirusRoot", "Mikel2", "rootkits", 18, 1500}
-     seguridad5 :{software:"VirusGus", "Anonys", "gusanos", 18, 1500}
-     seguridad6 :{software:"VirusTroya", "Spartan", "troyanos", 14, 1240}
+     seguridad1 :{software:"VirusRanso",developer: "lili", malware: "ransomware", clasificacion: 20, precio: 400}
+     seguridad2 :{software:"VirusSpy", "developer:agente2", malware: "spyware", clasificacion: 20, precio: 1300}
+     seguridad3 :{software:"VirusBot", "developer:emptyNow", malware: "botnets", clasificacion: 16, precio: 1300}
+     seguridad4 :{software:"VirusRoot", developer:"Mikel2", malware: "rootkits", clasificacion: 18, precio: 1500}
+     seguridad5 :{software:"VirusGus", "developer:Anonys", malware: "gusanos", clasificacion: 18, precio: 1500}
+     seguridad6 :{software:"VirusTroya",developer: "Spartan", malware: "troyanos", clasificacion: 14, precio: 1240}
     
-     social1 :{software:"Facebook", "Mark", 14, 1000}
-     social2 :{software:"Twitter", "Elonk", 18, 1200}
+     social1 :{software:"Facebook", developer: "Mark", clasificacion: 14, precio: 1000}
+     social2 :{software:"Twitter",  developer:"Elonk", clasificacion: 18, precio: 1200}
     
     
