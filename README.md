@@ -2,6 +2,7 @@
 Primer taller de laboratiorio de Estructura de datos
 
 Objetos creados de Usuarios:
+
     admin1:{software:usuario:"Juan",  contraseña:"abc123",  edad:23,  correo:"admin@gmail.com"}
 
     nino1 :{software:usuario:"Lukitas",  contraseña:"warroo1",  edad:12}
@@ -22,6 +23,7 @@ Objetos creados de Usuarios:
 
 
 Objetos creados de software:
+
      juego1 :{software:"juegofps1", developer: "Smile", genero: "fps", clasificacion: 19, precio: 1900}
      juego2 :{software:"juegofps2", developer: "Milei", genero: "fps", clasificacion: 19, precio: 2100}
      juego3 :{software:"juegoMMO1", developer: "whiteBlack", genero: "mmo", clasificacion: 19, precio: 2400}
